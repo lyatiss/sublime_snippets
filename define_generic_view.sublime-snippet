@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[define([
+		"underscore",
+		"jquery",
+		"backbone",
+		"generic/View"
+], function (
+	_,
+	\$,
+	Backbone,
+	GenericView
+) {
+	var ${1:ClassName} = GenericView.extend({
+		initialize: function () {
+			var scope = this;
+			GenericView.prototype.initialize.apply(scope, arguments);
+		},
+
+		render: function () {
+			var scope = this;
+			GenericView.prototype.render.apply(scope, arguments);
+			return scope;
+		}
+	});
+	return ${1:ClassName};
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>defv</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

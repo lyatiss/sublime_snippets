@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[define([
+		"underscore",
+		"backbone",
+		"generic/Model"
+], function (
+	_,
+	Backbone,
+	GenericModel
+) {
+	var ${1:ClassName} = GenericModel.extend({
+		initialize: function () {
+			var scope = this;
+			GenericModel.prototype.initialize.apply(scope, arguments);
+		}
+	});
+	return ${1:ClassName};
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>defm</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
