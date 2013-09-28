@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[define([
-		"underscore",
-		"jquery",
-		"backbone",
-		"generic/View"
+	"underscore",
+	"jquery",
+	"backbone",
+	"generic/View"
 ], function (
 	_,
 	\$,

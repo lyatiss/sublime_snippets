@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[define([
-		"underscore",
-		"backbone",
-		"generic/Model"
+	"underscore",
+	"backbone",
+	"generic/Model"
 ], function (
 	_,
 	Backbone,
