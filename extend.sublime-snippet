@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[var ${1:MyAwesomeClass} = ${2:ParentAwesomeClass}.extend({
+	initialize: function () {
+		var scope = this;
+		${2:ParentAwesomeClass}.prototype.initialize.apply(scope, arguments);
+	}
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ext</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
