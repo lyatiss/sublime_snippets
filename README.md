@@ -1,10 +1,17 @@
-sublime_snippets
-================
-
 CloudWeaver UI Sublime Snippets
+===============================
 
+Install
+-------
+
+for Mac OS:
+
+* cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages
+  
+* git clone https://github.com/lyatiss/sublime_snippets.git CloudWeaver\ UI\ Snippets
 
 Available snippets:
+-------------------
 
 * ext<TAB> — creates basic extend class constructer: var Class = Parent.extend({ ... 
 * sc<TAB> — creates: var scope = this;
